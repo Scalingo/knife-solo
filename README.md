@@ -13,6 +13,10 @@
 
 knife-solo adds a handful of Knife commands that aim to make working with chef-solo as powerful as chef-server.
 
+## CHANGES compared to upstream
+
+No `chef-solo-search` cookbook injected, one can use any version of this cookbook instead of the frozen one.
+
 ## Usage
 
 Simply ensure the gem is installed using:
